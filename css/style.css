@@ -1,0 +1,118 @@
+/* Fake Google CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+}
+
+#container {
+    width: 580px;
+    margin: 140px auto 0;
+    text-align: center;
+}
+
+h1#logo {
+    margin: auto;
+    width: 269px;
+    height: 95px;
+    background: url('img/google.png') top left no-repeat;
+    /* uses 100% of the element space */
+    background-size: 100%;
+    /* moves the h1 title off the screen */
+    text-indent: -9999px;
+}
+
+input[type="search"] {
+    width: 566px;
+    padding: 5px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+
+input[type="search"]:hover {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+    background: #eee;
+    color: #000;
+    border: solid 1px #aaa;
+    font-size: 12px;
+    padding: 5px;
+    font-fammily: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+small {
+    display: block;
+    margin: 10px;
+    font-size: 11px;
+}
+
+/* top navigation */
+a:link, a:visited {
+    color: #fff;
+}
+
+nav#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li {
+    display: inline;
+}
+
+nav#header ul li a:link, nav#header ul li a:visited, footer nav ul li a:link, footer nav ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+/* footer */
+
+footer {
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    witdh: 100%;
+}
+footer nav {
+    padding: 20px;
+}
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul {
+    float: left;
+}
+
+footer nav ul.right-links {
+    float: right;
+    text-align: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
