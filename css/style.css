@@ -22,7 +22,7 @@ h1#logo {
     margin: auto;
     width: 269px;
     height: 95px;
-    background: url('img/google.png') top left no-repeat;
+    background: url('../img/google.png') top left no-repeat;
     /* uses 100% of the element space */
     background-size: 100%;
     /* moves the h1 title off the screen */
